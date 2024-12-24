@@ -1,0 +1,15 @@
+<!--pages/my/index.wxml-->
+<view class="container">
+  <view class='my-name'>
+      我
+  </view>
+  <view class='my-header'>
+    <image class='my-header-img' src='{{userInfo.avatarUrl}}'></image>
+    <view class='my-header-name'>
+        第三组
+    </view>
+  </view>
+      <view class='my-body'>
+        总运动0分钟 <view class='my-body-time'>2024.12.20日 第三组加入运动</view>
+    </view>
+</view>
